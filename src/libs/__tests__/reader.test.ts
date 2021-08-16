@@ -5,7 +5,6 @@ import {
   sortUsers,
   isValidUserData,
   isValidTweetData,
-  mapUserTweets,
 } from '../reader';
 
 let userData: string;
@@ -78,5 +77,4 @@ describe("testing the reader.ts file", () => {
   test("test that isValidTweetData returns false for an invalid string", () => {
     expect(isValidTweetData("")).toBe(false);
   });
-  
 });
