@@ -27,3 +27,4 @@ To run the tests for this project:
 - Also made sure that the `formatTweet` function limited the tweets to `280` characters set via a variable.
 - Both the users and tweets files are validated via `isValidUserData` and `isValidTweetData` respectively.
 - while I initially wrote this using higher scoped variables for `users` and `tweets`, I changed the code to make it more localized so that it would be more testable.
+- things that could be added, would be mocking the file uploads for testing and also maybe adding the ability to swop the text encoding from ascii to utf-8.

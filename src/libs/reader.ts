@@ -92,7 +92,6 @@ const sortUser = (userLine: string, localUsers: {[key: string]: string[]} = {}) 
           localUsers[follow] = [follow];
         }
       });
-      console.log("sortUser => ", localUsers);
       return localUsers;
     }
     return {};

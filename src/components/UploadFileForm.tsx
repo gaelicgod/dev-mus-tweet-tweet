@@ -73,7 +73,7 @@ const UploadFileForm: React.FC<UploadFileFormProps> = (props: UploadFileFormProp
 
   const showError = () => {
     if (fileErrorMessage !== "") {
-      return <p className="App-error">{fileErrorMessage}</p>
+      return <p aria-label="error-message" className="App-error">{fileErrorMessage}</p>
     }
   }
   
